@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json",
+      "author": "elvis"
+    },
+    {
+      "id": 3,
+      "title": "globant",
+      "author": "esteban"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "other comment",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "Sams",
+    "postId": "2"
+  },
+  "address": {
+    "primary": [
+      {
+        "city": "london"
+      },
+      {
+        "city": "new york"
+      },
+      {
+        "city": "miami"
+      }
+    ],
+    "secondary": [
+      {
+        "city": "india"
+      },
+      {
+        "city": "italy"
+      },
+      {
+        "city": "china"
+      }
+    ]
+  }
+}
