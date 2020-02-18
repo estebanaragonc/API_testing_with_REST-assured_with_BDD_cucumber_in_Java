@@ -22,7 +22,7 @@ public class GetPostSteps {
 
     @Given("^I perform GET operation for \"([^\"]*)\"$")
     public void iPerformGETOperationFor(String url) throws Throwable {
-        RestAssuredExtension.GetOps(url);
+        response = RestAssuredExtension.GetOps(url);
     }
 
     @Then("^I should see the author name as \"([^\"]*)\"$")

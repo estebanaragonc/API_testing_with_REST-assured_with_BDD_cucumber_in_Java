@@ -20,7 +20,7 @@ public class RestAssuredExtension {
     public RestAssuredExtension(){
         //arrange
         RequestSpecBuilder builder = new RequestSpecBuilder();
-        builder.setBaseUri("https://my-json-server.typicode.com/estebanaragonc/API_testing_with_REST-assured_with_BDD_cucumber_in_Java");
+        builder.setBaseUri("https://my-json-server.typicode.com/estebanaragonc/API_testing_with_REST-assured_with_BDD_cucumber_in_Java/");
         builder.setContentType(ContentType.JSON);
         var requestSpec = builder.build();
         Request = RestAssured.given().spec(requestSpec);
@@ -39,7 +39,7 @@ public class RestAssuredExtension {
     public static ResponseOptions<Response> GetOps(String url){
         //act
         try {
-            Request.get(new URI(url));
+            return Request.get(new URI(url));
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
