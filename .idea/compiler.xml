@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="API_testing_with_REST-assured_with_BDD_cucumber_in_Java" target="1.5" />
+      <module name="API_testing_with_REST-assured_with_BDD_cucumber_in_Java" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>
